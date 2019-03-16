@@ -4,7 +4,9 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.virtusa.cdhtest.Dbchecktest"/>
-       <class name="com.virtusa.cdhtest.NewTest"/>
+       <class name="com.virtusa.cdhtest.Getenvtest"/>
+       <class name="com.virtusa.cdhtest.HiveParamstest"/>
+       
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
