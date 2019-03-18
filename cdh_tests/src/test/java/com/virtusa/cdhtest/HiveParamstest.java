@@ -14,7 +14,7 @@ public class HiveParamstest {
 
 	
 		
-		  cdhtest =  new ClouderaHiveJdbcTest( "select * from order_items limit 50",
+		  cdhtest =  new ClouderaHiveJdbcTest( "select * from test.cars limit 50",
 				  "192.168.1.227",
 				  "10000",
 				  "org.apache.hive.jdbc.HiveDriver",
