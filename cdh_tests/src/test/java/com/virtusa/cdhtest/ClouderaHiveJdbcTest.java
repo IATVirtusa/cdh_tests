@@ -32,7 +32,7 @@ public class ClouderaHiveJdbcTest {
 		System.out.println("Default Constructor used");
 		
 		SQL_STATEMENT = "select * from order_items limit 50";
-		HIVE_HOST = "192.168.1.227";
+		HIVE_HOST = "54.144.142.201";
 		HIVE_JDBC_PORT = "10000";
 		
 		CONNECTION_URL = "jdbc:hive2://" + HIVE_HOST
