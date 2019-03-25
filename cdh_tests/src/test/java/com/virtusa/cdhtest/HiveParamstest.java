@@ -14,7 +14,7 @@ public class HiveParamstest {
 
 	
 		
-		  cdhtest =  new ClouderaHiveJdbcTest( "select * from test.cars",
+		  cdhtest =  new ClouderaHiveJdbcTest( "select count(*) from test.cars",
 				  "localhost",
 				  "10000",
 				  "org.apache.hive.jdbc.HiveDriver",
